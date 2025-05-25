@@ -73,6 +73,7 @@ const MovieDetailsPage = () => {
                 'hover:underline',
                 activeTab === 'cast' && 'underline',
               )}
+              state={state}
               onClick={() => setActiveTab('cast')}
             >
               Casts
@@ -85,6 +86,7 @@ const MovieDetailsPage = () => {
                 'hover:underline',
                 activeTab === 'reviews' && 'underline',
               )}
+              state={state}
               onClick={() => setActiveTab('reviews')}
             >
               Reviews
